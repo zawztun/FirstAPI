@@ -105,6 +105,8 @@ namespace FirstAPI.Controllers
 
             students.Remove(student);
             Console.WriteLine("Student info for testing:");
+            Console.WriteLine("Student info for testing:"); 
+            Console.WriteLine("Student info for testing:");
             return NoContent();
         }
 
