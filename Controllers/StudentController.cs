@@ -104,6 +104,7 @@ namespace FirstAPI.Controllers
                 return NotFound();
 
             students.Remove(student);
+            Console.WriteLine("Student info:");
             return NoContent();
         }
 
